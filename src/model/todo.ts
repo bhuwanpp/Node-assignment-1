@@ -1,9 +1,5 @@
 import { IALLTasks, ITask } from "../interfaces/todo";
-
-const tasks: IALLTasks[] = [
-  { id: "1", todo: "learn nvim" },
-  { id: "2", todo: "learn linux" },
-];
+import { tasks } from "../mockdata/todo";
 
 /**
  * Retrieves all tasks.
